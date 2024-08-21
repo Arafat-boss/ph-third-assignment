@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ph-third-assignment</title>
+    <title>ph House</title>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +26,8 @@
               colors: {
                 clifford: '#da373d',
                 'dip-color': '#ABEF5F',
+                'halkha-color': '#ABEF5F80',
+                'color': '#F4F4F4',
               }
             }
           }
@@ -33,7 +35,7 @@
       </script>
 </head>
 
-<body class="max-w-6xl mx-auto manrope-normal">
+<body>
     <header>
         <!-- navbar -->
         <div class="navbar bg-base-100">
@@ -84,14 +86,16 @@
             </div>
             <div class="navbar-end max-sm:hidden ">
                  <!-- 2-icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <span class="mr-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                  </svg>
-                
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 border shadow-md rounded-xl">
+                  </svg></span>
+
+                <span class="mr-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                  </svg>
-              <a class="btn btn-active bg-dip-color font-bold">Book Consult
+                  </svg></span>
+              <a class=" p-3 rounded-3xl bg-dip-color font-bold">Book Consult
                 <div class="avatar placeholder">
                     <div class="bg-[#1C1C1C] text-white-content w-6 rounded-full">
                     <span class="text-xs"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 text-white">
@@ -104,10 +108,67 @@
             </div>
           </div>
         <!-- Banner-section -->
+          <div class="hero pb-20">
+            <div class="hero-content text-center pt-0">
+              <div class="w-3/4">
+                <img class="lg:pl-36" src="assets/banner.png" alt="">
+                <h1 class="lg:text-6xl text-4xl font-bold">A barn house of this design has a striking appearance</h1>
+                <p class="py-5 text-[#494949]">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+                <a class=" p-3 rounded-3xl bg-halkha-color font-bold">View Details
+                    <div class="avatar placeholder">
+                        <div class="bg-dip-color text-white-content w-6 rounded-full">
+                        <span class="text-xs"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                          </svg>
+                          </span>
+                        </div>
+                  </div>
+                  </a>
+              </div>
+            </div>
+          </div>
+    </header class="max-w-6xl mx-auto manrope-normal">
+<!-- main section -->
+    <main class="bg-color">
+        <div class="lg:flex max-w-6xl mx-auto manrope-normal">
+                    <!-- text content -->
+         <span class="max-sm:hidden">
+            <img src="assets/Vector.png" alt="">
+         </span>
+        <div class="lg:w-1/2 p-10 space-y-4">
+            <a class=" p-2 rounded-3xl bg-white space-y-4">About Us</a>
+              <h1 class="text-4xl font-bold mt-4">We design thoughtful,<br> liveable spaces</h1>
+              <p>The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <!-- h-card -->
+                <div class="flex bg-white p-4 rounded-lg mb-6">
+                    <div>
+                        <img src="assets/commercial.png" alt="">
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-2xl font-bold">Commercial</h3>
+                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div> 
+                <div class="flex bg-white p-4 rounded-lg">
+                    <div>
+                        <img src="assets/residential.png" alt="">
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-2xl font-bold">Residential</h3>
+                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div> 
+        </div>
 
-    </header>
-
-    <main></main>
+        <!-- img content -->
+         <div class="p-10">
+            <img src="assets/Rectangle.png" alt="">
+         </div>
+        </div>
+    </main>
 
     <footer></footer>
 </body>
