@@ -491,51 +491,75 @@
           <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
       </div>
       <!-- from div -->
-      <div class="hero max-w-6xl mx-auto manrope-normal">
-        <div class=" lg:flex-row-reverse">
-          <div class="card w-full max-w-sm shrink-0">
-            <div class="lg:flex">
+      <div class="max-w-6xl mx-auto manrope-normal">
               <!-- 2 input field here -->
-              <div>
-                <form class="lg:w-11/12">
+              <form  class="mx-auto max-sm:px-9 lg:w-1/2 grid lg:grid-cols-2 lg:gap-x-16 gap-5 mt-4" action="">
+                <div >
+                  <input type="text" placeholder="First Name*" class=" rounded-3xl px-16 py-2" required />
+                </div>
+          
                 <div class="">
-                  <label class="label">
-                    <span class="label-text">First Name*</span>
-                  </label>
-                  <input type="text" placeholder="First Name*" class="input input-bordered pl-40 rounded-3xl" required />
+                  <input type="text" placeholder="Last Name*" class=" rounded-3xl px-16 py-2" required />
                 </div>
-                <form class="">
-                  <div class="form-control">
-                    <label class="label">
-                      <span class="label-text">Email</span>
-                    </label>
-                    <input type="email" placeholder="email" class="input input-bordered rounded-3xl" required />
+          
+                <div class="">
+                  <input type="tel" placeholder="Phone Number*" class=" rounded-3xl px-16 py-2" required />
+                </div>
+          
+                <div class="">
+                  <input type="email" placeholder="Email Number*" class=" rounded-3xl px-16 py-2" required />
+                </div>
+                <div class="">
+                  <input type="text" placeholder="Write your message here" class=" rounded-3xl lg:px-[240px] lg:py-24 px-16 py-20"  required />
+                </div>
+              </form>
+              <button class="bg-dip-color text-lg font-bold rounded-3xl lg:px-[240px] lg:py-2 max-sm:px-10 max-sm:py-2 mt-5 max-sm:mb-9 lg:mb-20 lg:w-6/12 w-full  lg:ml-80 ">Send Mail
+                <div class="avatar placeholder">
+                  <div class="bg-neutral text-white w-6 rounded-full">
+                    <span class="text-xs"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                    </span>
                   </div>
-              </form></div>
-              <!-- 2 input field here -->
-              <div>
-                <form class="w-11/12">
-                <div class="form-control">
-                  <label class="label">
-                    <span class="label-text">Last Name*</span>
-                  </label>
-                  <input type="text" placeholder="Last Name*" class="input input-bordered pl-40 rounded-3xl" required />
                 </div>
-                <div class="form-control">
-                  <label class="label">
-                    <span class="label-text">Password</span>
-                  </label>
-                  <input type="password" placeholder="password" class="input input-bordered pl-40 rounded-3xl" required />
-
-                </div>
-              </form></div>
-            </div>
-          </div>
-        </div>
+              </button>
+          <!-- 2 input field here -->
       </div>
      </section>
-
-
-    <footer></footer>
+     <hr class=" border-4 border-white">
+    <!-- footer section -->
+    <footer class="manrope-normal footer footer-center bg-black text-white text-base-content rounded p-10">
+      <!-- logo -->
+      <a class="flex btn btn-ghost text-xl font-bold"><div class="avatar placeholder">
+        <div class="bg-dip-color text-black w-6 rounded-full">
+        <span class="text-xs"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+          </span>
+        </div>
+  </div>
+  Rinterio</a>
+  <p class="text-gray-500 lg:w-2/4">
+    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+  </p>
+  <!-- nav section -->
+      <nav class="grid lg:grid-flow-col max-sm:gap-7 lg:gap-28">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <a class="flex p-3 rounded-3xl bg-dip-color text-black font-bold"> Book Consult
+        <div class="avatar placeholder">
+            <div class="bg-black text-white w-6 rounded-full">
+            <span class="text-xs"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+              </span>
+            </div>
+      </div>
+      </a>
+    </footer>
 </body>
 </html>
